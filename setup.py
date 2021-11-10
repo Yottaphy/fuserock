@@ -16,4 +16,4 @@ setup(name='fuserock',
         'console_scripts': [
             'fuserock = fuserock:main'
         ]},
-        )
+    )
