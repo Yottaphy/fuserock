@@ -1,2 +1,2 @@
-./build
-./fuserock.egg-info
+build/
+*.egg-info/
