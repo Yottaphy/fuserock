@@ -3,7 +3,7 @@ from setuptools import setup
 setup(name='fuserock',
       version='1.0',
       description='FUSion-Evaporation ReactiOn Calculator of Kinematics',
-      url='',
+      url='https://github.com/Yottaphy/fuserock',
       author='Jorge Romero',
       author_email='joromero@jyu.fi',
       license='GPL-3.0',

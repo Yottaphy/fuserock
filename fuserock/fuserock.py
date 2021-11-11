@@ -2,14 +2,11 @@ import argparse
 from .reaction import Reaction
 from .tableprinting import PrintTableHead, PrintTableContents
 
-E_Bi = [391.15, 342.26, 325.96, 309.66]
-E_U  = [410.15, 358.88, 341.79, 324.70]
-
 def get_parser():
 
     parser = argparse.ArgumentParser(description = 'FUSion-Evaporation ReactiOn Calculator of Kinematics')
 
-    parser.add_argument('-E', '--energy',
+    parser.add_argument('-e', '--energy',
                         type=float,
                         help='Beam energy in MeV')
 
@@ -42,7 +39,7 @@ def main():
     if args.energy is None and args.scan is None:
         print('Error. No single energy or scan range has been defined. Try again.')
         exit()
-        
+
     PrintTableHead(*args.beam, *args.target)
     if args.energy is not None:        
         PrintTableContents(Reaction(args.energy, *args.beam, *args.target))
