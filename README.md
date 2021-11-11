@@ -24,7 +24,7 @@ or, equivalently:
 
 > `$ fuserock --energy bE --beam bA bZ --target tA tZ`
 
-will calculate the reaction between a `bE` MeV beam with mass number `bA` and proton number `bZ` impinging on a target with with mass number `tA` and proton number `tZ`.
+will calculate the reaction of a `bE` MeV beam with mass number `bA` and proton number `bZ` impinging on a target with with mass number `tA` and proton number `tZ`.
 
 For an energy scan, use: 
 > `$ fuserock -s bEmin bEmax bEstep -b bA bZ -t tA tZ`
