@@ -4,7 +4,7 @@ Fuserock is a simple, terminal based calculator of fusion-evaporation nuclear re
 
 ## Setup
 ### Pre-requisites
-The `fuserock` package is a python package. It requires Python3 to be installed and `pip` to be up to date. It also requires the `argparse` package to be installed.
+The `fuserock` package is a python package. It requires Python3 to be installed and `pip` to be up to date. It also requires the `argparse` package to be installed, but it will be automatically installed.
 
 ### Install
 You can clone the package's `git` repository:
